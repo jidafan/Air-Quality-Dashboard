@@ -1,1 +1,1 @@
-# Air-Quality-Dashboard
+# Air Quality Dashboard
