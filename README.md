@@ -14,7 +14,6 @@ This project analyzes the air quality around the GTA and surrounding areas. A da
 | `requirements.txt` | List of Python libraries                    |
 
 ## How to Run Project
-
 1. Set up Python Environment
 
    * Create a virtual environment
@@ -32,37 +31,41 @@ This project analyzes the air quality around the GTA and surrounding areas. A da
     ```
 
 2. Initialize Database
-
-  * Navigate to the pipeline directory
-```
-$ cd pipeline
-```
- * Create the database using the CLI interface
-```
-$ python database_manager.py --create
-```
+  
+* Navigate to the pipeline directory
+  ```
+  $ cd pipeline
+  ```
+* Create the database using the CLI interface
+  ```
+  $ python database_manager.py --create
+  ```
 
 3. Extract Database
-* Run the extraction CLI
-```
-$ python extraction.py [required arguments]
-```
+   
+  * Run the extraction CLI
+  ```
+  $ python extraction.py [required arguments]
+  ```
 
 4. Transform Data
-* Run the transformation CLI to create views in the presentation schema
-```
-$ python transformation.py
-```
+   
+  * Run the transformation CLI to create views in the presentation schema
+  ```
+  $ python transformation.py
+  ```
 
 5. Run Dashboard
-* Navigate to the dashboard directory
-```
-$ cd dashboard
-```
-* Run the app
-```
-$ python app.py
-```
+   
+  * Navigate to the dashboard directory
+  ```
+  $ cd dashboard
+  ```
+  * Run the app
+  ```
+  $ python app.py
+  ```
 
 6. Access Results
-* Dashboard will be on web browser
+   
+  * Dashboard will be on web browser
